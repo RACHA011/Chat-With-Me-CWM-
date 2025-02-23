@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",       // ESLint for linting
+    "esbenp.prettier-vscode",       // Prettier for code formatting
+    "firefox-devtools.vscode-firefox-debug", // Debugging for Firefox
+    "msjsdiag.debugger-for-chrome"  // Debugging for Chrome
+  ]
+}
