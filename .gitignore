@@ -9,6 +9,12 @@ dist/
 web-build/
 expo-env.d.ts
 
+# Ignore .env file
+.env
+
+# ignore app.config.js file
+app.config.js
+
 # Native
 *.orig.*
 *.jks

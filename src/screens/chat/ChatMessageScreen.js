@@ -10,7 +10,6 @@ import {
   View,
   StyleSheet,
 } from 'react-native';
-import encodeFileToBase64 from '../../client/encoder';
 import {
   chatRoomGenerator,
   loadInitialMessages,
@@ -148,7 +147,7 @@ const ChatMessageScreen = ({ route }) => {
         case 'IMAGE':
           content = {
             type: messageType,
-            data: await encodeFileToBase64(fileBytes),
+            data: fileBytes,
           };
           break;
         // Add cases for VIDEO/VOICE/FILE if needed

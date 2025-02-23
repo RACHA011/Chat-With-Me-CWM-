@@ -3,16 +3,18 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getDatabase } from "firebase/database";
+import Constants from 'expo-constants';
 
+// Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyBVsjpYhsSqmrx4sDVb90nqSHPBz8kKDdg',
-  authDomain: 'chatwithme-033.firebaseapp.com',
-  databaseURL: 'https://chatwithme-033-default-rtdb.firebaseio.com',
-  projectId: 'chatwithme-033',
-  storageBucket: 'chatwithme-033.firebasestorage.app',
-  messagingSenderId: '961730881303',
-  appId: '1:961730881303:web:a1d820247e3aa62558f952',
-  measurementId: 'G-J6KXVK11WH',
+  apiKey: Constants.expoConfig.extra.firebaseApiKey,
+  authDomain: Constants.expoConfig.extra.firebaseAuthDomain,
+  databaseURL: Constants.expoConfig.extra.firebaseDatabaseUrl,
+  projectId: Constants.expoConfig.extra.firebaseProjectId,
+  storageBucket: Constants.expoConfig.extra.firebaseStorageBucket,
+  messagingSenderId: Constants.expoConfig.extra.firebaseMessagingSenderId,
+  appId: Constants.expoConfig.extra.firebaseAppId,
+  measurementId: Constants.expoConfig.extra.firebaseMeasurementId,
 };
 
 // Initialize Firebase

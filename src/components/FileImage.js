@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ActivityIndicator, Image } from "react-native";
-import { fetchGetDataWithAuth } from "../client/Client";
+// import { fetchGetDataWithAuth } from "../client/Client";
 
 const FileImage = ({ fileId }) => {
   const [imageUri, setImageUri] = useState(null);
@@ -8,7 +8,7 @@ const FileImage = ({ fileId }) => {
 
   const fetchImage = async (fileId) => {
     try {
-      const response = await fetchGetDataWithAuth(`/chat/downloaded-file/${fileId}`);
+      // const response = await fetchGetDataWithAuth(`/chat/downloaded-file/${fileId}`);
       
       return response.data;
     } catch (err) {
