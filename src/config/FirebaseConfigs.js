@@ -3,18 +3,17 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getDatabase } from "firebase/database";
-import Constants from 'expo-constants';
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: Constants.expoConfig.extra.firebaseApiKey,
-  authDomain: Constants.expoConfig.extra.firebaseAuthDomain,
-  databaseURL: Constants.expoConfig.extra.firebaseDatabaseUrl,
-  projectId: Constants.expoConfig.extra.firebaseProjectId,
-  storageBucket: Constants.expoConfig.extra.firebaseStorageBucket,
-  messagingSenderId: Constants.expoConfig.extra.firebaseMessagingSenderId,
-  appId: Constants.expoConfig.extra.firebaseAppId,
-  measurementId: Constants.expoConfig.extra.firebaseMeasurementId,
+  apiKey: '',
+  authDomain: '',
+  databaseURL:  '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: '',
 };
 
 // Initialize Firebase
