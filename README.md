@@ -3,7 +3,7 @@
 Chat With Me (CWM) is a real-time chat application built with **React Native** and **Firebase**. It allows users to sign up, log in, send messages, and interact with friends in real-time. The app also supports features like profile pictures, online status, and message timestamps.
 
  **Download the app**: [expo link](https://expo.dev/artifacts/eas/egSsGDpFg4KacFiznF33pC.apk) / 
-                       [MediaFire](https://expo.dev/artifacts/eas/hxATpr2JpQfjbRgcGYZdqr.apk)
+                       [MediaFire](https://www.mediafire.com/file/ajn94svdjubip9i/application-6b7e0e72-3abb-48e7-85c1-bc56bb922942.apk/file)
 ---
 
 ## Features
